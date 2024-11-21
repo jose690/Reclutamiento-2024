@@ -1,0 +1,5 @@
+.cuadroGeneral {
+    background-image: url('../Assets/Wallpaper2.jpg');
+    height: 100vh;
+    background-size: cover;
+}
