@@ -463,3 +463,11 @@ body {
     gap: 3px;
     display: flex;
 }
+
+.botonGuardar:Hover {
+    background-color: green;
+}
+
+.botonAtras:hover {
+    background-color: blue;
+}
