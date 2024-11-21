@@ -38,6 +38,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     border-style: none;
+    width: 111px;
 }
 
 .botonMenuPrincipal::before,
@@ -115,8 +116,8 @@ body {
 
 .botonSalir {
     background-color: darkred;
-    width: 70px;
     height: 35px;
+    width: 80px;
 }
 
 .botonSalir:hover {
@@ -132,6 +133,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
+    width: fit-content;
+    outline: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .botonExpedientePersonal {
@@ -273,6 +279,15 @@ body {
     width: 100px;
 }
 
+.selectDomicilio {
+    font-family: 'AR One Sans', sans-serif;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
 .inputDatos {
     font-family: 'AR One Sans', sans-serif;
     font-weight: 700;
@@ -317,10 +332,142 @@ body {
 .cuadroDomicilioAtestados {
     display: flex;
     width: fit-content;
+    gap: 5px;
 }
 
 .cuadroDomicilio {
+    background-color: rgba(239, 68, 68, 0.5);
+    border-radius: 5px;
+    padding: 5px;
 }
 
-.cuadroTitulo {
+.cuadroProvinciaCanton {
+    display: flex;
+}
+
+.cuadrosDomicilio {
+    display: flex;
+}
+
+.cuadroTitulosDomicilio2 {
+    width: 70px;
+}
+
+.cuadroTitulosDomicilio1 {
+    width: 80px;
+}
+
+.inputSenas {
+    width: 360px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.cuadroAtestados {
+    background-color: rgba(59, 130, 246, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cuadroCantonDistrito {
+    display: flex;
+}
+
+.cuadroSenas {
+    display: flex;
+}
+
+.gAcademicoGProf {
+    display: flex;
+}
+
+.cuadroGAcademico {
+    display: flex;
+}
+
+.cuadroTituloAtestados1 {
+    display: flex;
+    width: 86px;
+}
+
+.cuadroTituloAtestados2 {
+    display: flex;
+    width: 73px;
+}
+
+.cuadroGAcademico {
+    display: flex;
+}
+
+.cuadroGProfesional {
+    display: flex;
+}
+
+.cuadroSCivil {
+    display: flex;
+}
+
+.cuadroIdiomasMostrar {
+    display: flex;
+}
+
+.cuadroColegiado {
+    display: flex;
+}
+
+.cuadroIdiomasSeleccionar {
+    display: flex;
+}
+
+.selectAtestados {
+    font-family: 'AR One Sans', sans-serif;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cuadroDatosAtestados {
+    width: 147px;
+}
+
+.botonAgregarIdiomas {
+    background-color: darkblue;
+}
+
+.botonAgregarIdiomas:hover {
+    background-color: blue;
+}
+
+.botonGuardar {
+    background-color: darkgreen;
+    height: 35px;
+    width: 80px;
+}
+
+.botonAtras {
+    background-color: darkblue;
+    height: 35px;
+    width: 80px;
+}
+
+.cuadroPersonalGeneral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuadroBotonesGuardarAtras {
+    margin-right: 12px;
+    gap: 3px;
+    display: flex;
+}
+
+.botonGuardar:Hover {
+    background-color: green;
+}
+
+.botonAtras:hover {
+    background-color: blue;
 }

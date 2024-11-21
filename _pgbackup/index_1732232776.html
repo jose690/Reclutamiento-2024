@@ -43,7 +43,7 @@
       </header>
       <main>
         <section>
-          <div>
+          <div class="cuadroPersonalGeneral">
             <div class="menuBotonesNavegacion">
               <button class="botonExpedientePersonal botonMenuSecundario botonPaginaPropia">Expediente personal</button>
               <button class="botonExpedienteAcademico botonMenuSecundario">Expediente académico</button>
@@ -55,7 +55,7 @@
             <div class="cuadroPrincipal">
               <div class="informacionPersonal">
                 <div class="cuadrosPersonal datosPersonal1">
-                  <p class="tituloInformacionPersonal">Información personal</p>
+                  <p class="tituloCuadro tituloInformacionPersonal">Información personal</p>
                   <div class="cuadroTituloDatos">
                     <div class="cuadroTituloPrimer">
                       <span class="tituloCredencial titulos">Credencial:</span>
@@ -169,9 +169,130 @@
                   </div>
                 </div>
               </div>
-              <div>
-                <div></div>
-                <div data-empty-placeholder></div>
+              <div class="cuadroDomicilioAtestados">
+                <div class="cuadroDomicilio">
+                  <h1 class="tituloCuadro">Domicilio</h1>
+                  <div class="cuadroProvinciaCanton">
+                    <div class="cuadroProvincia cuadrosDomicilio">
+                      <div class="cuadroTitulosDomicilio1">
+                        <span class="titulos">Provincia:</span>
+                      </div>
+                      <div>
+                        <select class="selectDomicilio"> 
+                          <option>Seleccione opción</option>                           
+                          <option>Seleccione opción</option>                           
+                        </select>
+                      </div>
+                    </div>
+                    <div class="cuadroCodPostal cuadrosDomicilio">
+                      <div class="cuadroTitulosDomicilio2">
+                        <span class="cuadroTitulosDomicilio titulos">C Postal:</span>
+                      </div>
+                      <div>
+                        <span class="datos">10401</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cuadroCantonDistrito">
+                    <div class="cuadrosDomicilio">
+                      <div class="cuadroTitulosDomicilio1">
+                        <span class="titulos">Cantón:</span>
+                      </div>
+                      <div>
+                        <select class="selectDomicilio"> 
+                          <option>Seleccione opción</option>                           
+                          <option>Seleccione opción</option>                           
+                        </select>
+                      </div>
+                    </div>
+                    <div class="cuadrosDomicilio">
+                      <div class="cuadroTitulosDomicilio2">
+                        <span class="titulos">Distrito:</span>
+                      </div>
+                      <div>
+                        <select class="selectDomicilio"> 
+                          <option>Seleccione opción</option>                           
+                          <option>Seleccione opción</option>                           
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cuadroSenas">
+                    <div class="cuadroTitulosDomicilio1">
+                      <span class="titulos">Señas:</span>
+                    </div>
+                    <div>
+                      <input class="inputSenas">
+                    </div>
+                  </div>
+                </div>
+                <div class="cuadroAtestados">
+                  <h1 class="tituloCuadro">Atestados</h1>
+                  <div class="gAcademicoGProf">
+                    <div class="cuadroGAcademico cuadroGProfesional">
+                      <div class="cuadroTituloAtestados1">
+                        <span class="titulos">G acad:</span>
+                      </div>
+                      <div class="cuadroDatosAtestados">
+                        <select class="selectAtestados">
+                          <option>Seleccione opción</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="cuadroGProfesional">
+                      <div class="cuadroTituloAtestados2">
+                        <span class="titulos">G prof:</span>
+                      </div>
+                      <div class="cuadroDatosAtestados">
+                        <select class="cuadroDatosAtestados selectAtestados">
+                          <option>Seleccione opción</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gAcademicoGProf">
+                    <div class="cuadroSCivil">
+                      <div class="cuadroTituloAtestados1">
+                        <span class="titulos">S civil:</span>
+                      </div>
+                      <div class="cuadroDatosAtestados">
+                        <select class="selectAtestados">
+                          <option>Seleccione opción</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="cuadroColegiado cuadroIdiomasMostrar">
+                      <div class="cuadroTituloAtestados2">
+                        <span class="titulos">Idiomas:</span>
+                      </div>
+                      <div class="cuadroDatosAtestados">
+                        <span class="datos"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gAcademicoGProf">
+                    <div class="cuadroColegiado cuadroIdiomasSeleccionar">
+                      <div class="cuadroTituloAtestados1">
+                        <span class="titulos">Colegiado:</span>
+                      </div>
+                      <div class="cuadroDatosAtestados">
+                        <span class="datos">Colegiado</span>
+                      </div>
+                    </div>
+                    <div class="cuadroIdiomasSeleccionar">
+                      <div class="cuadroTituloAtestados2">
+                        <span class="titulos">Idiomas:</span>
+                      </div>
+                      <div class="cuadroDatosAtestados">
+                        <button class="boton botonAgregarIdiomas">Agregar Idiomas</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cuadroBotonesGuardarAtras">
+                <button class="boton botonGuardar">Guardar</button>
+                <button class="boton botonAtras">Atras</button>
               </div>
             </div>
           </div>

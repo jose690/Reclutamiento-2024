@@ -201,13 +201,13 @@ body {
 
 .tituloInformacionPersonal {
     width: 225px;
-    height: 29px;
 }
 
 .tituloCuadro {
     margin: 0;
     font-family: 'ADLaM Display', cursive;
     font-size: 22px;
+    font-weight: 700;
 }
 
 .cuadroTituloFoto {
