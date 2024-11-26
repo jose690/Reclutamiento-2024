@@ -472,3 +472,73 @@ body {
 .botonAtras:hover {
     background-color: blue;
 }
+
+.cuadroTitulosEProf {
+    display: flex;
+    gap: 2px;
+    padding: 2px;
+}
+
+.cuadroDatosEProf {
+    display: flex;
+    gap: 2px;
+    padding: 2px;
+}
+
+.etiquetaDato {
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.etiquetaTitulo {
+    font-family: 'ADLaM Display', cursive;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.cuadroDivision {
+    outline: 1px solid #cccccc;
+}
+
+.cuadroCargo {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuadroCompania {
+    width: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuadroJefeDirecto {
+    width: 164px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuadroModalidad {
+    width: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuadroFechaIngreso {
+    width: 115px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuadroFechaSalida {
+    width: 105px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuadroPrincipalEProf {
+    background-color: rgba(16, 185, 129, 0.3);
+    overflow: hidden;
+    border-radius: 10px;
+}

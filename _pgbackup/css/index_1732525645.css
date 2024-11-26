@@ -88,7 +88,7 @@ body {
 .nombre {
     color: #ffffff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -185,7 +185,7 @@ body {
 
 .informacionPersonal {
     display: flex;
-    background-color: rgba(16, 185, 129, 0.3);
+    background-color: rgba(16, 185, 129, 0.5);
     width: fit-content;
     padding: 5px;
     border-radius: 10px;
@@ -335,7 +335,7 @@ body {
 }
 
 .cuadroDomicilio {
-    background-color: rgba(59, 130, 246, 0.3);
+    background-color: rgba(239, 68, 68, 0.5);
     border-radius: 5px;
     padding: 5px;
 }
@@ -364,7 +364,7 @@ body {
 }
 
 .cuadroAtestados {
-    background-color: rgba(239, 68, 68, 0.3);
+    background-color: rgba(59, 130, 246, 0.5);
     border-radius: 5px;
     padding: 5px;
 }

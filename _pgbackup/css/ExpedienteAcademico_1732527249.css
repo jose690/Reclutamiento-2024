@@ -88,7 +88,7 @@ body {
 .nombre {
     color: #ffffff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -470,5 +470,14 @@ body {
 }
 
 .botonAtras:hover {
+    background-color: blue;
+}
+
+.botonAgregarTitulo {
+    background-color: darkblue;
+    height: 35px;
+}
+
+.botonAgregarTitulo:hover {
     background-color: blue;
 }

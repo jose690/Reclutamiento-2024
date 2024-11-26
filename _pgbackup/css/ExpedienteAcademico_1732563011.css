@@ -472,3 +472,80 @@ body {
 .botonAtras:hover {
     background-color: blue;
 }
+
+.botonAgregarTitulo {
+    background-color: darkblue;
+    height: 35px;
+}
+
+.botonAgregarTitulo:hover {
+    background-color: blue;
+}
+
+.cuadroTitulosAcademico {
+    display: flex;
+    gap: 2px;
+}
+
+.cuadroDatosAcademico {
+    display: flex;
+    gap: 2px;
+    padding: 2px;
+}
+
+.cuadroTituloAcademico {
+    display: flex;
+    justify-content: center;
+}
+
+.cuadroDatoAcademico {
+    display: flex;
+    justify-content: center;
+}
+
+.cuadroDivision {
+    outline: 1px solid #cccccc;
+    width: auto;
+}
+
+.etiquetaTitulo {
+    font-family: 'ADLaM Display', cursive;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.cuadroGeneralAcademico {
+    background-color: rgba(16, 185, 129, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.etiquetaDato {
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.grupoInstitucion {
+    width: 135px;
+}
+
+.grupoGrado {
+    width: 75px;
+}
+
+.grupoTitulo {
+    width: 140px;
+}
+
+.grupoFechaIngreso {
+    width: 140px;
+}
+
+.grupoSalida {
+    width: 125px;
+}
+
+.grupoEstado {
+    width: 85px;
+}

@@ -112,6 +112,7 @@ body {
     border-radius: 10px;
     align-self: flex-end;
     width: fit-content;
+    text-decoration: underline;
 }
 
 .botonSalir {

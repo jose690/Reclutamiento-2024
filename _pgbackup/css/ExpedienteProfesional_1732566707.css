@@ -472,3 +472,7 @@ body {
 .botonAtras:hover {
     background-color: blue;
 }
+
+.cuadroTitulosEProf {
+    display: flex;
+}

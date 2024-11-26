@@ -88,7 +88,7 @@ body {
 .nombre {
     color: #ffffff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -471,4 +471,42 @@ body {
 
 .botonAtras:hover {
     background-color: blue;
+}
+
+.botonAgregarTitulo {
+    background-color: darkblue;
+    height: 35px;
+}
+
+.botonAgregarTitulo:hover {
+    background-color: blue;
+}
+
+.cuadroTitulosAcademico {
+    display: flex;
+}
+
+.cuadroDatosAcademico {
+    display: flex;
+}
+
+.cuadroTituloAcademico {
+}
+
+.cuadroDatoAcademico {
+}
+
+.cuadroDivision {
+    outline: 1px solid #cccccc;
+}
+
+.etiquetaTitulo {
+    font-family: 'ADLaM Display', cursive;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.cuadroGeneralAcademico {
+    background-color: rgba(16, 185, 129, 0.3);
+    border-radius: 10px;
 }
