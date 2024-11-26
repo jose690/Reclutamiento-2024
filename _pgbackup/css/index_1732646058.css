@@ -38,6 +38,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     border-style: none;
+    width: 111px;
 }
 
 .botonMenuPrincipal::before,
@@ -87,7 +88,7 @@ body {
 .nombre {
     color: #ffffff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -115,8 +116,8 @@ body {
 
 .botonSalir {
     background-color: darkred;
-    width: 70px;
     height: 35px;
+    width: 80px;
 }
 
 .botonSalir:hover {
@@ -132,6 +133,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
+    width: fit-content;
+    outline: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .botonExpedientePersonal {
@@ -179,7 +185,7 @@ body {
 
 .informacionPersonal {
     display: flex;
-    background-color: rgba(16, 185, 129, 0.5);
+    background-color: rgba(16, 185, 129, 0.3);
     width: fit-content;
     padding: 5px;
     border-radius: 10px;
@@ -195,13 +201,13 @@ body {
 
 .tituloInformacionPersonal {
     width: 225px;
-    height: 29px;
 }
 
 .tituloCuadro {
     margin: 0;
     font-family: 'ADLaM Display', cursive;
     font-size: 22px;
+    font-weight: 700;
 }
 
 .cuadroTituloFoto {
@@ -224,11 +230,10 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: -1px;
 }
 
 .espacioBlanco {
-    width: 213px;
+    width: 184px;
     height: 29px;
 }
 
@@ -258,11 +263,11 @@ body {
 }
 
 .cuadroTituloSegundo {
-    width: 71px;
+    width: 75px;
 }
 
 .cuadroDatosSegundo {
-    width: 165px;
+    width: 110px;
 }
 
 .cuadroTituloTercero {
@@ -270,7 +275,7 @@ body {
 }
 
 .cuadroDatosTercero {
-    width: 100px;
+    width: 140px;
 }
 
 .selectDomicilio {
@@ -326,25 +331,18 @@ body {
 .cuadroDomicilioAtestados {
     display: flex;
     width: fit-content;
+    gap: 5px;
 }
 
 .cuadroDomicilio {
-    background-color: rgba(239, 68, 68, 0.5);
+    background-color: rgba(59, 130, 246, 0.3);
     border-radius: 5px;
     padding: 5px;
 }
 
-.cuadroTitulo {
-}
-
 .cuadroProvinciaCanton {
     display: flex;
-}
-
-.cuadroProvincia {
-}
-
-.cuadroCodPostal {
+    gap: 2px;
 }
 
 .cuadrosDomicilio {
@@ -366,13 +364,14 @@ body {
 }
 
 .cuadroAtestados {
-    background-color: rgba(59, 130, 246, 0.5);
+    background-color: rgba(239, 68, 68, 0.3);
     border-radius: 5px;
     padding: 5px;
 }
 
 .cuadroCantonDistrito {
     display: flex;
+    gap: 2px;
 }
 
 .cuadroSenas {
@@ -381,4 +380,95 @@ body {
 
 .gAcademicoGProf {
     display: flex;
+}
+
+.cuadroGAcademico {
+    display: flex;
+}
+
+.cuadroTituloAtestados1 {
+    display: flex;
+    width: 86px;
+}
+
+.cuadroTituloAtestados2 {
+    display: flex;
+    width: 73px;
+}
+
+.cuadroGAcademico {
+    display: flex;
+}
+
+.cuadroGProfesional {
+    display: flex;
+}
+
+.cuadroSCivil {
+    display: flex;
+}
+
+.cuadroIdiomasMostrar {
+    display: flex;
+}
+
+.cuadroColegiado {
+    display: flex;
+}
+
+.cuadroIdiomasSeleccionar {
+    display: flex;
+}
+
+.selectAtestados {
+    font-family: 'AR One Sans', sans-serif;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cuadroDatosAtestados {
+    width: 147px;
+}
+
+.botonAgregarIdiomas {
+    background-color: darkblue;
+}
+
+.botonAgregarIdiomas:hover {
+    background-color: blue;
+}
+
+.botonGuardar {
+    background-color: darkgreen;
+    height: 35px;
+    width: 80px;
+}
+
+.botonAtras {
+    background-color: darkblue;
+    height: 35px;
+    width: 80px;
+}
+
+.cuadroPersonalGeneral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuadroBotonesGuardarAtras {
+    margin-right: 12px;
+    gap: 3px;
+    display: flex;
+}
+
+.botonGuardar:Hover {
+    background-color: green;
+}
+
+.botonAtras:hover {
+    background-color: blue;
 }

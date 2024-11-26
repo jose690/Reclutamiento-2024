@@ -43,14 +43,10 @@
       </header>
       <main>
         <section>
-          <div>
+          <div class="cuadroPersonalGeneral">
             <div class="menuBotonesNavegacion">
-              <button class="botonExpedientePersonal botonMenuSecundario botonPaginaPropia">Expediente personal</button>
-              <button class="botonExpedienteAcademico botonMenuSecundario">Expediente académico</button>
-              <button class="botonExpedienteProfesional botonMenuSecundario">Expediente profesional</button>
-              <button class="botonMenuSecundario botonReferenciasPersonales">Referencias personales</button>
-              <button class="botonMenuSecundario botonReferenciasProfesionales">Referencias profesionales</button>
-              <button class="botonMenuSecundario botonOtrosDatos">Otros datos</button>
+              <button class="botonExpedientePersonal botonMenuSecundario botonPaginaPropia" type="button">Expediente personal</button>
+              <a href="ExpedienteAcademico.html" class="linkBotonMenuSecundario"><button class="botonExpedienteAcademico botonMenuSecundario" type="button">Expediente académico</button></a><a href="ExpedienteProfesional.html" class="linkBotonMenuSecundario"><button class="botonExpedienteProfesional botonMenuSecundario" type="button">Expediente profesional</button></a><a href="ReferenciasPersonales.html" class="linkBotonMenuSecundario"><button class="botonMenuSecundario botonReferenciasPersonales" type="button">Referencias personales</button></a><a href="ReferenciasProfesionales.html" class="linkBotonMenuSecundario"><button class="botonMenuSecundario botonReferenciasProfesionales" type="button">Referencias profesionales</button></a><a href="OtrosDatos.html" class="linkBotonMenuSecundario"><button class="botonMenuSecundario botonOtrosDatos" type="button">Otros datos</button></a>
             </div>
             <div class="cuadroPrincipal">
               <div class="informacionPersonal">
@@ -86,13 +82,15 @@
                   <div class="cuadroTituloDatos">
                     <div class="cuadroTituloSegundo"><span class="titulos">Fecha n:</span>
                     </div>
-                    <div class="cuadroDatosSegundo"><span class="datos">06-noviembre-1990</span>
+                    <div class="cuadroDatosSegundo"><span class="datos">06-nov-1990</span>
                     </div>
                   </div>
                   <div class="cuadroTituloDatos">
-                    <div class="cuadroTituloSegundo"><span class="titulos">Correo:</span>
+                    <div class="cuadroTituloSegundo">
+                      <span class="titulos">Teléfono:</span>
                     </div>
-                    <div class="cuadroDatosSegundo"><span class="datos">jose690@gmail.com</span>
+                    <div class="cuadroDatosSegundo">
+                      <span class="datos">8617-4390</span>
                     </div>
                   </div>
                   <div class="cuadroTituloDatos">
@@ -111,9 +109,11 @@
                 <div class="cuadrosPersonal datosPersonal3">
                   <div class="espacioBlanco"></div>
                   <div class="cuadroTituloDatos">
-                    <div class="cuadroTituloTercero"><span class="titulos">Teléfono:</span>
+                    <div class="cuadroTituloTercero">
+                      <span class="titulos">Correo elec:</span>
                     </div>
-                    <div class="cuadroDatosTercero"><span class="datos">8617-4390</span>
+                    <div class="cuadroDatosTercero">
+                      <span class="datos">jose690@gmail.com</span>
                     </div>
                   </div>
                   <div class="cuadroTituloDatos">
@@ -162,16 +162,21 @@
                         </select>
                       </div>
                     </div>
-                    <div class="cuadroCodPostal cuadrosDomicilio">
-                      <div class="cuadroTitulosDomicilio2"><span class="cuadroTitulosDomicilio titulos">C Postal:</span>
+                    <div class="cuadrosDomicilio">
+                      <div class="cuadroTitulosDomicilio2">
+                        <span class="titulos">Cantón:</span>
                       </div>
-                      <div><span class="datos">10401</span>
+                      <div>
+                        <select class="selectDomicilio"> 
+                          <option>Seleccione opción</option>                           
+                          <option>Seleccione opción</option>                           
+                        </select>
                       </div>
                     </div>
                   </div>
                   <div class="cuadroCantonDistrito">
                     <div class="cuadrosDomicilio">
-                      <div class="cuadroTitulosDomicilio1"><span class="titulos">Cantón:</span>
+                      <div class="cuadroTitulosDomicilio1"><span class="titulos">Distrito:</span>
                       </div>
                       <div>
                         <select class="selectDomicilio"> 
@@ -180,14 +185,12 @@
                         </select>
                       </div>
                     </div>
-                    <div class="cuadrosDomicilio">
-                      <div class="cuadroTitulosDomicilio2"><span class="titulos">Distrito:</span>
+                    <div class="cuadroCodPostal cuadrosDomicilio">
+                      <div class="cuadroTitulosDomicilio2">
+                        <span class="cuadroTitulosDomicilio titulos">C Postal:</span>
                       </div>
                       <div>
-                        <select class="selectDomicilio"> 
-                          <option>Seleccione opción</option>                           
-                          <option>Seleccione opción</option>                           
-                        </select>
+                        <span class="datos">10401</span>
                       </div>
                     </div>
                   </div>
@@ -202,20 +205,62 @@
                 <div class="cuadroAtestados">
                   <h1 class="tituloCuadro">Atestados</h1>
                   <div class="gAcademicoGProf">
-                    <div>
-                      <div><span>This is a span.</span>
+                    <div class="cuadroGAcademico cuadroGProfesional">
+                      <div class="cuadroTituloAtestados1"><span class="titulos">G acad:</span>
                       </div>
-                      <div><span>This is a span.</span>
+                      <div class="cuadroDatosAtestados">
+                        <select class="selectAtestados">
+                          <option>Seleccione opción</option>
+                        </select>
                       </div>
                     </div>
-                    <div class="cuadrosAtestados">
-                      <div><span>This is a span.</span>
+                    <div class="cuadroGProfesional">
+                      <div class="cuadroTituloAtestados2"><span class="titulos">G prof:</span>
                       </div>
-                      <div><span>This is a span.</span>
+                      <div class="cuadroDatosAtestados">
+                        <select class="cuadroDatosAtestados selectAtestados">
+                          <option>Seleccione opción</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gAcademicoGProf">
+                    <div class="cuadroSCivil">
+                      <div class="cuadroTituloAtestados1"><span class="titulos">S civil:</span>
+                      </div>
+                      <div class="cuadroDatosAtestados">
+                        <select class="selectAtestados">
+                          <option>Seleccione opción</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="cuadroColegiado cuadroIdiomasMostrar">
+                      <div class="cuadroTituloAtestados2"><span class="titulos">Idiomas:</span>
+                      </div>
+                      <div class="cuadroDatosAtestados"><span class="datos"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gAcademicoGProf">
+                    <div class="cuadroColegiado cuadroIdiomasSeleccionar">
+                      <div class="cuadroTituloAtestados1"><span class="titulos">Colegiado:</span>
+                      </div>
+                      <div class="cuadroDatosAtestados"><span class="datos">Colegiado</span>
+                      </div>
+                    </div>
+                    <div class="cuadroIdiomasSeleccionar">
+                      <div class="cuadroTituloAtestados2"><span class="titulos">Idiomas:</span>
+                      </div>
+                      <div class="cuadroDatosAtestados">
+                        <button class="boton botonAgregarIdiomas">Agregar Idiomas</button>
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
+              <div class="cuadroBotonesGuardarAtras">
+                <button class="boton botonGuardar">Guardar</button>
+                <button class="boton botonAtras">Atras</button>
               </div>
             </div>
           </div>

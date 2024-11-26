@@ -473,18 +473,3 @@ body {
 .botonAtras:hover {
     background-color: blue;
 }
-
-.cuadroGeneralReferenciasPersonales {
-}
-
-.cuadroTitulos {
-    display: flex;
-}
-
-.cuadroDatos {
-    display: flex;
-}
-
-.cuadroDivision {
-    outline: 1px solid #cccccc;
-}
