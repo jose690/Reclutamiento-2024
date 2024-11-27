@@ -475,68 +475,16 @@ body {
 }
 
 .cuadroGeneralReferenciasPersonales {
-    background-color: rgba(16, 185, 129, 0.3);
-    overflow: hidden;
-    border-radius: 10px;
 }
 
 .cuadroTitulos {
     display: flex;
-    padding: 2px;
-    gap: 2px;
 }
 
 .cuadroDatos {
     display: flex;
-    gap: 2px;
-    padding: 2px;
 }
 
 .cuadroDivision {
     outline: 1px solid #cccccc;
-}
-
-.etiquetaDato {
-    font-family: 'AR One Sans', sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-}
-
-.etiquetaTitulo {
-    font-family: 'ADLaM Display', cursive;
-    font-size: 17px;
-    font-weight: 700;
-}
-
-.cuadroNombreRefPersonales {
-    width: 135px;
-}
-
-.cuadroRelacion {
-    width: 75px;
-}
-
-.cuadroTelefono {
-    width: 95px;
-}
-
-.cuadroCorreo {
-    width: 155px;
-}
-
-.cuadroTiempo {
-    width: 160px;
-}
-
-.cuadrosRefPersonales {
-    text-align: center;
-}
-
-.botonAgregarRefPersonal {
-    background-color: darkblue;
-    height: 35px;
-}
-
-.botonAgregarRefPersonal:hover {
-    background-color: blue;
 }

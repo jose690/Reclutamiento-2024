@@ -477,7 +477,6 @@ body {
 .cuadroGeneralReferenciasPersonales {
     background-color: rgba(16, 185, 129, 0.3);
     overflow: hidden;
-    border-radius: 10px;
 }
 
 .cuadroTitulos {
