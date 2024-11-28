@@ -610,17 +610,9 @@ body {
     display: none;
 }
 
-.tituloActualizarIdiomas {
-    font-family: 'ADLaM Display', cursive;
-    font-size: 20px;
-    color: white;
+.cuadroIdiomas {
 }
 
 .cuadroInputIdiomas {
     margin: 3px;
-}
-
-.cuadroIdiomasSeleccionados {
-    font-family: 'ADLaM Display', cursive;
-    font-size: 17px;
 }

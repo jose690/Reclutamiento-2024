@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const openPopup = document.getElementById('openPopupIdiomas');
     const popup = document.getElementById('popupIdiomas');
     const editForm = document.getElementById('editFormIdiomas');
+
     const idiomaSpan = document.getElementById('Idiomas')
 
     openPopup.addEventListener('click', () => {
@@ -48,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     editForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        const idiomasSeleccionados = Array.from(editForm.querySelectorAll('input[name="Idioma"]:checked')).map(checkbox => checkbox.value);
+        const idiomasSeleccionados = Array.from(editForm.querySelectorAll('input[name="idioma"]:checked')).map(checkbox => checkbox.value);
         idiomaSpan.textContent = idiomasSeleccionados.length > 0 ? idiomasSeleccionados.join(', '):"Ninguno";
         popup.classList.add('hiddenIdiomas');
     });
