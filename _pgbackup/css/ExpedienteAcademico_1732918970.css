@@ -572,9 +572,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 1000;
-}
-
-.popup-contentTitulo {
+}.popup-contentTitulo {
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -698,12 +696,7 @@ selectTitulo {
     display: none;
 }
 
-.etiquetaInstitucion {
-    font-family: 'ADLaM Display', cursive;
-    color: white;
-}
-
-.popup-contentInstitucion {
+popup-contentInstitucion {
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -712,9 +705,7 @@ selectTitulo {
     background-color: rgba(59, 130, 246, 0.7);
 }
 
-.cuadroInstitucion {
-    margin-bottom: 3px;
-}
-
-.labelsInstitucion {
+.etiquetaInstitucion {
+    font-family: 'ADLaM Display', cursive;
+    color: white;
 }

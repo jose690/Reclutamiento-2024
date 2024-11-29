@@ -713,8 +713,6 @@ selectTitulo {
 }
 
 .cuadroInstitucion {
+    width: 210px;
     margin-bottom: 3px;
-}
-
-.labelsInstitucion {
 }

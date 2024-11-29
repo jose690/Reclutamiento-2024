@@ -53,7 +53,7 @@
             </div>
             <div class="cuadroPrincipal">
               <button class="boton botonAgregarTitulo" id="openPopupTitulo" type="button">Agregar título</button>
-              <div id="popupTitulo" class="hiddenTitulo popupTitulo">
+              <div id="popupTitulo" class="iddenTitulo popupTitulo">
                 <div class="popup-contentTitulo">
                   <h2 class="tituloActualizarTitulo">Agregar título</h2>
                   <form id="editFormTitulo">
@@ -61,107 +61,64 @@
                       <div class="cuadroTituloPrimero">
                         <div class="cuadroTitulo1">
                           <label class="etiquetaTitulo labelAgregarTitulo titulosActualizar">Institución:</label>
-                          <button class="boton botonBuscar" id="openPopupInstitucion" type="button">Buscar</button>
-                          <div id="popupInstitucion" class="hiddenInstitucion popupInstitucion">
+                          <button class="boton botonBuscar" id="openPopupInstitucion">Buscar</button>
+                          <div id="popupInstitucion" class="iddenInstitucion popupInstitucion">
                             <div class="popup-contentInstitucion">
                               <h2 class="etiquetaInstitucion">Institución</h2>
-                              <form id="editFormInstitucion">
+                              <form id="editformInstitucion">
                                 <div class="cuadroInstitucion">
-                                  <div>
-                                    <label class="etiquetaInstitucion etiquetaTitulo labelsInstitucion">Provincia</label>
-                                  </div>
-                                  <div>
-                                    <select>
-                                      <option value="" disabled selected>Selecciona una opción</option>
-                                      <option value="san-jose">San José</option>
-                                      <option value="alajuela">Alajuela</option>
-                                      <option value="cartago">Cartago</option>
-                                      <option value="heredia">Heredia</option>
-                                      <option value="guanacaste">Guanacaste</option>
-                                      <option value="puntarenas">Puntarenas</option>
-                                      <option value="limon">Limón</option>                                       
-                                    </select>
-                                  </div>
+                                  <label class="etiquetaInstitucion etiquetaTitulo">Provincia:</label>
+                                  <select>
+                                    <option value="" disabled selected>Selecciona una opción</option>
+                                    <option value="san-jose">San José</option>
+                                    <option value="alajuela">Alajuela</option>
+                                    <option value="cartago">Cartago</option>
+                                    <option value="heredia">Heredia</option>
+                                    <option value="guanacaste">Guanacaste</option>
+                                    <option value="puntarenas">Puntarenas</option>
+                                    <option value="limon">Limón</option>                                     
+                                  </select>
                                 </div>
                                 <div class="cuadroInstitucion">
-                                  <div>
-                                    <label class="etiquetaInstitucion etiquetaTitulo labelsInstitucion">Cantón</label>
-                                  </div>
-                                  <div>
-                                    <select>
-                                      <option value="" disabled selected>Selecciona una opción</option>
-                                      <option value="san-jose">San José</option>
-                                      <option value="escazu">Escazú</option>
-                                      <option value="desamparados">Desamparados</option>
-                                      <option value="puriscal">Puriscal</option>
-                                      <option value="tarrazu">Tarrazú</option>
-                                      <option value="aserri">Aserrí</option>
-                                      <option value="mora">Mora</option>
-                                      <option value="goicoechea">Goicoechea</option>
-                                      <option value="santa-ana">Santa Ana</option>
-                                      <option value="alajuelita">Alajuelita</option>
-                                      <option value="vasquez-de-coronado">Vásquez de Coronado</option>
-                                      <option value="acosta">Acosta</option>
-                                      <option value="tibás">Tibás</option>
-                                      <option value="moravia">Moravia</option>
-                                      <option value="montes-de-oca">Montes de Oca</option>
-                                      <option value="turrubares">Turrubares</option>
-                                      <option value="dota">Dota</option>
-                                      <option value="curridabat">Curridabat</option>
-                                      <option value="perez-zeledon">Pérez Zeledón</option>
-                                      <option value="leon-cortes">León Cortés</option>                                       
-                                    </select>
-                                  </div>
+                                  <label class="etiquetaInstitucion etiquetaTitulo">Cantón:</label>
+                                  <select>
+                                    <option value="" disabled selected>Selecciona una opción</option>
+                                    <option value="san-jose">San José</option>
+                                    <option value="escazu">Escazú</option>
+                                    <option value="desamparados">Desamparados</option>
+                                    <option value="puriscal">Puriscal</option>
+                                    <option value="tarrazu">Tarrazú</option>
+                                    <option value="aserri">Aserrí</option>
+                                    <option value="mora">Mora</option>
+                                    <option value="goicoechea">Goicoechea</option>
+                                    <option value="santa-ana">Santa Ana</option>
+                                    <option value="alajuelita">Alajuelita</option>
+                                    <option value="vasquez-de-coronado">Vásquez de Coronado</option>
+                                    <option value="acosta">Acosta</option>
+                                    <option value="tibás">Tibás</option>
+                                    <option value="moravia">Moravia</option>
+                                    <option value="montes-de-oca">Montes de Oca</option>
+                                    <option value="turrubares">Turrubares</option>
+                                    <option value="dota">Dota</option>
+                                    <option value="curridabat">Curridabat</option>
+                                    <option value="perez-zeledon">Pérez Zeledón</option>
+                                    <option value="leon-cortes">León Cortés</option>                                     
+                                  </select>
                                 </div>
                                 <div class="cuadroInstitucion">
-                                  <div>
-                                    <label class="etiquetaInstitucion etiquetaTitulo labelsInstitucion">Distrito</label>
-                                  </div>
-                                  <div>
-                                    <select>
-                                      <option value="" disabled selected>Selecciona una opción</option>
-                                      <option value="carmen">Carmen</option>
-                                      <option value="mercedes">Mercedes</option>
-                                      <option value="hospital">Hospital</option>
-                                      <option value="catedral">Catedral</option>
-                                      <option value="zapote">Zapote</option>
-                                      <option value="san-francisco-dos-rios">San Fra de Dos Ríos</option>
-                                      <option value="uruca">Uruca</option>
-                                      <option value="mata-redonda">Mata Redonda</option>
-                                      <option value="pavas">Pavas</option>
-                                      <option value="hatillo">Hatillo</option>
-                                      <option value="san-sebastian">San Sebastián</option>                                       
-                                    </select>
-                                  </div>
+                                  <label class="etiquetaInstitucion etiquetaTitulo">Distrito:</label>
+                                  <select></select>
                                 </div>
                                 <div class="cuadroInstitucion">
-                                  <div>
-                                    <label class="etiquetaInstitucion etiquetaTitulo labelsInstitucion">Tipo institución</label>
-                                  </div>
-                                  <div>
-                                    <select>
-                                      <option value="" disabled selected>Selecciona una opción</option>
-                                      <option>Colegio</option>
-                                      <option>Universidad</option>
-                                      <option>Instituto</option>
-                                    </select>
-                                  </div>
+                                  <label class="etiquetaInstitucion etiquetaTitulo">Tipo de institución</label>
+                                  <select></select>
                                 </div>
                                 <div class="cuadroInstitucion">
-                                  <div>
-                                    <label class="etiquetaInstitucion etiquetaTitulo labelsInstitucion">Nombre institución</label>
-                                  </div>
-                                  <div>
-                                    <select>
-                                      <option value="" disabled selected>Selecciona una opción</option>
-                                      <option value="Colegio Superior de Señoritas">Colegio S Señoritas</option>
-                                      <option value="Liceo de Costa Rica">Liceo de Costa Rica</option>
-                                      <option value="Colegio Nocturno Costa Rica">Colegio N Costa Rica</option>
-                                    </select>
-                                  </div>
+                                  <label class="etiquetaInstitucion etiquetaTitulo">Nombre de institución</label>
+                                  <select></select>
                                 </div>
                                 <div>
-                                  <button type="submit" id="submitInstitucion">Agregar</button>
+                                  <button type="submit">Agregar</button>
                                 </div>
                               </form>
                             </div>
