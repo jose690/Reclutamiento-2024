@@ -474,235 +474,69 @@ body {
     background-color: blue;
 }
 
-.contenedorCapaIdiomas {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    left: 0;
-    display: none;
-}
-
-.popupCajaIdiomas {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    width: 360px;
-    text-align: center;
-    opacity: 0;
-    transform: scale(0.8);
-    animation: fadeInUp 0.5s ease-out forwards;
-}
-
-.contenedorFormularioIdiomas {
-    display: flex;
-    flex-direction: column;
-}
-
-.linkBotonMenuSecundario {
-    display: flex;
-    align-items: center;
-}
-
-.popupDatos {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-.popup-contentDatos {
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    position: relative;
-    width: 300px;
-    background-color: rgba(59, 130, 246, 0.7);
-}
-
-.hiddenDatos {
-    display: none;
-}
-
-.tituloActualizarDatos {
-    font-family: 'ADLaM Display', cursive;
-    font-size: 20px;
-    color: white;
-}
-
-.titulosActualizar {
-    font-family: 'AR One Sans', sans-serif;
-    color: white;
-}
-
-.botonVerificar {
-    background-color: darkblue;
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-
-.botonActualizar {
-    background-color: darkgreen;
-    margin-top: 3px;
-}
-
-.botonActualizar:hover {
-    background-color: green;
-}
-
-.botonVerificar:hover {
-    background-color: blue;
-}
-
-.inputTelefono {
-    width: 77px;
-    text-align: center;
-}
-
-.inputCorreo {
-    width: 170px;
-    text-align: center;
-}
-
-.textoIdiomas {
-    font-family: 'AR One Sans', sans-serif;
-    font-size: 17px;
-    color: white;
-}
-
-.popupIdiomas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-.popup-contentIdiomas {
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    position: relative;
-    width: 300px;
-    background-color: rgba(59, 130, 246, 0.7);
-}
-
-.hiddenIdiomas {
-    display: none;
-}
-
-.tituloActualizarIdiomas {
-    font-family: 'ADLaM Display', cursive;
-    font-size: 20px;
-    color: white;
-}
-
-.cuadroInputIdiomas {
-    margin: 3px;
-}
-
-.cuadroIdiomasSeleccionados {
-    font-family: 'ADLaM Display', cursive;
-    font-size: 17px;
-}
-
-.button2 {
-    display: inline-block;
-    transition: all 0.2s ease-in;
-    position: relative;
+.cuadroGeneralReferenciasPersonales {
+    background-color: rgba(16, 185, 129, 0.3);
     overflow: hidden;
-    z-index: 1;
-    color: #090909;
-    padding: 0.7em 3.3em 0.7em 1.7em;
-    font-size: 18px;
-    border-radius: 0.5em;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
-    box-shadow: 6px 6px 12px #c5c5c5,
-             -6px -6px 12px #ffffff;
+    border-radius: 10px;
 }
 
-.button2 > svg {
-    height: 30px;
-    position: absolute;
-    padding: 0px 5px;
-    margin-top: -4px;
-}
-
-.button2:active {
-    color: #666;
-    box-shadow: inset 4px 4px 12px #c5c5c5,
-             inset -4px -4px 12px #ffffff;
-}
-
-.button2:before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) scaleY(1) scaleX(1.25);
-    top: 100%;
-    width: 140%;
-    height: 180%;
-    background-color: rgba(0, 0, 0, 0.05);
-    border-radius: 50%;
-    display: block;
-    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -1;
-}
-
-.button2:after {
-    content: "";
-    position: absolute;
-    left: 55%;
-    transform: translateX(-50%) scaleY(1) scaleX(1.45);
-    top: 180%;
-    width: 160%;
-    height: 190%;
-    background-color: #009087;
-    border-radius: 50%;
-    display: block;
-    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -1;
-}
-
-.button2:hover {
-    color: #ffffff;
-    border: 1px solid #009087;
-}
-
-.button2:hover:before {
-    top: -35%;
-    background-color: #009087;
-    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-}
-
-.button2:hover:after {
-    top: -45%;
-    background-color: #009087;
-    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-}
-
-cuadroWhatsapp {
+.cuadroTitulos {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 2px;
+    gap: 2px;
+}
+
+.cuadroDatos {
+    display: flex;
+    gap: 2px;
+    padding: 2px;
+}
+
+.cuadroDivision {
+    outline: 1px solid #cccccc;
+}
+
+.etiquetaDato {
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.etiquetaTitulo {
+    font-family: 'ADLaM Display', cursive;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.cuadroNombreRefPersonales {
+    width: 135px;
+}
+
+.cuadroRelacion {
+    width: 100px;
+}
+
+.cuadroTelefono {
+    width: 95px;
+}
+
+.cuadroCorreo {
+    width: 155px;
+}
+
+.cuadroTiempo {
+    width: 160px;
+}
+
+.cuadrosRefPersonales {
+    text-align: center;
+}
+
+.botonAgregarRefPersonal {
+    background-color: darkblue;
+    height: 35px;
+}
+
+.botonAgregarRefPersonal:hover {
+    background-color: blue;
 }

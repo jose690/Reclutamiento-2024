@@ -474,35 +474,82 @@ body {
     background-color: blue;
 }
 
-.contenedorCapaIdiomas {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    left: 0;
-    display: none;
+.botonAgregarTitulo {
+    background-color: darkblue;
+    height: 35px;
 }
 
-.popupCajaIdiomas {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    width: 360px;
-    text-align: center;
-    opacity: 0;
-    transform: scale(0.8);
-    animation: fadeInUp 0.5s ease-out forwards;
+.botonAgregarTitulo:hover {
+    background-color: blue;
 }
 
-.contenedorFormularioIdiomas {
+.cuadroTitulosAcademico {
     display: flex;
-    flex-direction: column;
+    gap: 5px;
+    padding: 2px;
+}
+
+.cuadroDatosAcademico {
+    display: flex;
+    gap: 5px;
+    padding: 2px;
+}
+
+.cuadroTituloAcademico {
+    display: flex;
+    justify-content: center;
+}
+
+.cuadroDatoAcademico {
+    display: flex;
+    justify-content: center;
+}
+
+.cuadroDivision {
+    outline: 1px solid #cccccc;
+    width: auto;
+}
+
+.etiquetaTitulo {
+    font-family: 'ADLaM Display', cursive;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.cuadroGeneralAcademico {
+    background-color: rgba(16, 185, 129, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.etiquetaDato {
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.grupoInstitucion {
+    width: 135px;
+}
+
+.grupoGrado {
+    width: 75px;
+}
+
+.grupoTitulo {
+    width: 140px;
+}
+
+.grupoFechaIngreso {
+    width: 140px;
+}
+
+.grupoSalida {
+    width: 125px;
+}
+
+.grupoEstado {
+    width: 85px;
 }
 
 .linkBotonMenuSecundario {
@@ -510,7 +557,11 @@ body {
     align-items: center;
 }
 
-.popupDatos {
+.linkExpedientePersonal {
+    display: flex;
+}
+
+.popupTitulo {
     position: fixed;
     top: 0;
     left: 0;
@@ -523,67 +574,114 @@ body {
     z-index: 1000;
 }
 
-.popup-contentDatos {
+.popup-contentTitulo {
     padding: 20px;
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     position: relative;
-    width: 300px;
     background-color: rgba(59, 130, 246, 0.7);
 }
 
-.hiddenDatos {
+.hiddenTitulo {
     display: none;
 }
 
-.tituloActualizarDatos {
-    font-family: 'ADLaM Display', cursive;
-    font-size: 20px;
-    color: white;
+.cuadroTituloPrimero {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
 }
 
-.titulosActualizar {
-    font-family: 'AR One Sans', sans-serif;
-    color: white;
+.cuadroTituloSegundo {
+    display: flex;
+    gap: 5px;
 }
 
-.botonVerificar {
+.cuadroFechaSalidaAgregar {
+    display: flex;
+}
+
+.cuadroEspecialidad {
+    display: flex;
+}
+
+.inputEspecialidad {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.cuadroBlancoTitulo {
+}
+
+.cuadroTitulo1 {
+    min-width: 164px;
+}
+
+.botonBuscar {
     background-color: darkblue;
-    margin-top: 3px;
-    margin-bottom: 3px;
 }
 
-.botonActualizar {
-    background-color: darkgreen;
-    margin-top: 3px;
-}
-
-.botonActualizar:hover {
-    background-color: green;
-}
-
-.botonVerificar:hover {
+.botonBuscar:hover {
     background-color: blue;
 }
 
-.inputTelefono {
-    width: 77px;
-    text-align: center;
+.botonAgregarT {
+    background-color: darkblue;
 }
 
-.inputCorreo {
-    width: 170px;
-    text-align: center;
+.botonAgregarT:hover {
+    background-color: blue;
 }
 
-.textoIdiomas {
-    font-family: 'AR One Sans', sans-serif;
-    font-size: 17px;
+.botonGuardarTitulo {
+    background-color: darkgreen;
+}
+
+.botonGuardarTitulo:hover {
+    background-color: green;
+}
+
+.cuadroTitulo2 {
+    width: 205px;
+    gap: 2px;
+}
+
+labelFecha {
+}
+
+.labelFecha {
+    text-align: left;
+    min-width: 146px;
+}
+
+.cuadroTitulo3 {
+    width: 300px;
+    display: flex;
+}
+
+selectTitulo {
+    border-radius: 2px;
+}
+
+.selectTitulo {
+    border-radius: 10px;
+}
+
+.cuadroTituloGeneral {
+    margin-bottom: 5px;
+}
+
+.labelAgregarTitulo {
     color: white;
 }
 
-.popupIdiomas {
+.tituloActualizarTitulo {
+    font-family: 'ADLaM Display', cursive;
+    color: white;
+}
+
+.popupInstitucion {
     position: fixed;
     top: 0;
     left: 0;
@@ -596,35 +694,32 @@ body {
     z-index: 1000;
 }
 
-.popup-contentIdiomas {
+.hiddenInstitucion {
+    display: none;
+}
+
+.etiquetaInstitucion {
+    font-family: 'ADLaM Display', cursive;
+    color: white;
+}
+
+.popup-contentInstitucion {
     padding: 20px;
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     position: relative;
-    width: 300px;
     background-color: rgba(59, 130, 246, 0.7);
 }
 
-.hiddenIdiomas {
-    display: none;
+.cuadroInstitucion {
+    margin-bottom: 3px;
 }
 
-.tituloActualizarIdiomas {
-    font-family: 'ADLaM Display', cursive;
-    font-size: 20px;
-    color: white;
+.labelsInstitucion {
 }
 
-.cuadroInputIdiomas {
-    margin: 3px;
-}
-
-.cuadroIdiomasSeleccionados {
-    font-family: 'ADLaM Display', cursive;
-    font-size: 17px;
-}
-
+/* From Uiverse.io by NelsonDJCR */
 .button2 {
     display: inline-block;
     transition: all 0.2s ease-in;
@@ -701,7 +796,8 @@ body {
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
-cuadroWhatsapp {
+.cuadroWhatsapp {
+    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
